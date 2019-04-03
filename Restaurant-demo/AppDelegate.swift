@@ -12,10 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var router: Router = Router()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Instantiate NavigationController on Start
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let initialViewController = storyBoard.instantiateViewController(withIdentifier: "NavigationHome") as! UINavigationController
+        
+        //Instantiate Home ViewController
+        let signUpVC = initialViewController.viewControllers[0] as! SignUpVC
+        let presenter = SignUpPresenter()
+        presenter.router = router
+        signUpVC.presenter = presenter
+        router.rootController = signUpVC
+        window?.rootViewController = initialViewController
         return true
     }
 

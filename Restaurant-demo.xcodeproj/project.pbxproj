@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A532C3AD225533DE002EE47C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C3AC225533DE002EE47C /* Router.swift */; };
+		A532C3AF225535FC002EE47C /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C3AE225535FC002EE47C /* SignUpPresenter.swift */; };
+		A532C3B1225537EF002EE47C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C3B0225537EF002EE47C /* TestViewController.swift */; };
+		A532C3B32255380F002EE47C /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C3B22255380F002EE47C /* TestPresenter.swift */; };
 		A586D2592247B637005853CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586D2582247B637005853CA /* AppDelegate.swift */; };
-		A586D25B2247B637005853CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586D25A2247B637005853CA /* ViewController.swift */; };
+		A586D25B2247B637005853CA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586D25A2247B637005853CA /* SignUpVC.swift */; };
 		A586D25E2247B637005853CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A586D25C2247B637005853CA /* Main.storyboard */; };
 		A586D2602247B639005853CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A586D25F2247B639005853CA /* Assets.xcassets */; };
 		A586D2632247B639005853CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A586D2612247B639005853CA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A532C3AC225533DE002EE47C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A532C3AE225535FC002EE47C /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		A532C3B0225537EF002EE47C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A532C3B22255380F002EE47C /* TestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
 		A586D2552247B637005853CA /* Restaurant-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A586D2582247B637005853CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A586D25A2247B637005853CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A586D25A2247B637005853CA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		A586D25D2247B637005853CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A586D25F2247B639005853CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A586D2622247B639005853CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				A586D2582247B637005853CA /* AppDelegate.swift */,
-				A586D25A2247B637005853CA /* ViewController.swift */,
+				A532C3AC225533DE002EE47C /* Router.swift */,
+				A532C3AE225535FC002EE47C /* SignUpPresenter.swift */,
+				A586D25A2247B637005853CA /* SignUpVC.swift */,
 				A586D25C2247B637005853CA /* Main.storyboard */,
 				A586D25F2247B639005853CA /* Assets.xcassets */,
 				A586D2612247B639005853CA /* LaunchScreen.storyboard */,
 				A586D2642247B639005853CA /* Info.plist */,
+				A532C3B0225537EF002EE47C /* TestViewController.swift */,
+				A532C3B22255380F002EE47C /* TestPresenter.swift */,
 			);
 			path = "Restaurant-demo";
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A586D25B2247B637005853CA /* ViewController.swift in Sources */,
+				A532C3B1225537EF002EE47C /* TestViewController.swift in Sources */,
+				A586D25B2247B637005853CA /* SignUpVC.swift in Sources */,
+				A532C3B32255380F002EE47C /* TestPresenter.swift in Sources */,
+				A532C3AD225533DE002EE47C /* Router.swift in Sources */,
+				A532C3AF225535FC002EE47C /* SignUpPresenter.swift in Sources */,
 				A586D2592247B637005853CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

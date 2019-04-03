@@ -8,13 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignUpVC: UIViewController {
+    
+    var presenter: SignUpProtocol?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-
+    @IBAction func goto(_ sender: Any) {
+        presenter?.gotoSecondPage()
+    }
+    
 }
 
