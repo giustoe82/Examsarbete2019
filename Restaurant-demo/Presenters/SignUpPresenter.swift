@@ -19,6 +19,14 @@ extension SignUpPresenter: SignUpProtocol {
     func gotoSecondPage() {
         router?.gotoSecondPage()
     }
+    
+    func gotoEmpReg() {
+        router?.showEmployerReg()
+    }
+    
+    func gotoWorkerReg() {
+        router?.showWorkerReg()
+    }
    
 }
 
@@ -27,5 +35,7 @@ extension SignUpPresenter: SignUpProtocol {
 protocol SignUpProtocol {
     
     func gotoSecondPage()
+    func gotoEmpReg()
+    func gotoWorkerReg()
     
 }

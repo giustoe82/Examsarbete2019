@@ -14,11 +14,14 @@ class SignUpVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.isNavigationBarHidden = false
     }
 
     @IBAction func goto(_ sender: Any) {
-        presenter?.gotoSecondPage()
+        presenter?.gotoEmpReg()
+    }
+    @IBAction func gotoWorkerReg(_ sender: Any) {
+        presenter?.gotoWorkerReg()
     }
     
 }

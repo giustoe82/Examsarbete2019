@@ -16,6 +16,20 @@
 		A586D25E2247B637005853CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A586D25C2247B637005853CA /* Main.storyboard */; };
 		A586D2602247B639005853CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A586D25F2247B639005853CA /* Assets.xcassets */; };
 		A586D2632247B639005853CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A586D2612247B639005853CA /* LaunchScreen.storyboard */; };
+		A5AD4CE9225A35EB00F69B16 /* RegEmployerPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CE8225A35EB00F69B16 /* RegEmployerPager.swift */; };
+		A5AD4CEB225A361800F69B16 /* RegWorkerPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CEA225A361800F69B16 /* RegWorkerPager.swift */; };
+		A5AD4CED225A36E700F69B16 /* RegEmployerPagerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CEC225A36E700F69B16 /* RegEmployerPagerRouter.swift */; };
+		A5AD4CEF225A36FE00F69B16 /* RegWorkerpagerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CEE225A36FE00F69B16 /* RegWorkerpagerRouter.swift */; };
+		A5AD4CF1225A377900F69B16 /* RegEmployerPagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CF0225A377900F69B16 /* RegEmployerPagerPresenter.swift */; };
+		A5AD4CF3225A37A300F69B16 /* RegWorkerPagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CF2225A37A300F69B16 /* RegWorkerPagerPresenter.swift */; };
+		A5AD4CF5225A380100F69B16 /* RegEmployerSubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CF4225A380100F69B16 /* RegEmployerSubController.swift */; };
+		A5AD4CF7225A382000F69B16 /* RegWorkerSubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CF6225A382000F69B16 /* RegWorkerSubController.swift */; };
+		A5AD4CF9225A3F0C00F69B16 /* REPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CF8225A3F0C00F69B16 /* REPage1.swift */; };
+		A5AD4CFB225A3F2700F69B16 /* REPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CFA225A3F2700F69B16 /* REPage2.swift */; };
+		A5AD4CFD225A3F3800F69B16 /* REPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CFC225A3F3800F69B16 /* REPage3.swift */; };
+		A5AD4D00225A3F6F00F69B16 /* RWPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4CFF225A3F6F00F69B16 /* RWPage1.swift */; };
+		A5AD4D02225A3F8500F69B16 /* RWPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4D01225A3F8500F69B16 /* RWPage2.swift */; };
+		A5AD4D04225A3F9700F69B16 /* RWPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4D03225A3F9700F69B16 /* RWPage3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +44,20 @@
 		A586D25F2247B639005853CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A586D2622247B639005853CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A586D2642247B639005853CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AD4CE8225A35EB00F69B16 /* RegEmployerPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegEmployerPager.swift; sourceTree = "<group>"; };
+		A5AD4CEA225A361800F69B16 /* RegWorkerPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegWorkerPager.swift; sourceTree = "<group>"; };
+		A5AD4CEC225A36E700F69B16 /* RegEmployerPagerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegEmployerPagerRouter.swift; sourceTree = "<group>"; };
+		A5AD4CEE225A36FE00F69B16 /* RegWorkerpagerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegWorkerpagerRouter.swift; sourceTree = "<group>"; };
+		A5AD4CF0225A377900F69B16 /* RegEmployerPagerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegEmployerPagerPresenter.swift; sourceTree = "<group>"; };
+		A5AD4CF2225A37A300F69B16 /* RegWorkerPagerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegWorkerPagerPresenter.swift; sourceTree = "<group>"; };
+		A5AD4CF4225A380100F69B16 /* RegEmployerSubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegEmployerSubController.swift; sourceTree = "<group>"; };
+		A5AD4CF6225A382000F69B16 /* RegWorkerSubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegWorkerSubController.swift; sourceTree = "<group>"; };
+		A5AD4CF8225A3F0C00F69B16 /* REPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REPage1.swift; sourceTree = "<group>"; };
+		A5AD4CFA225A3F2700F69B16 /* REPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REPage2.swift; sourceTree = "<group>"; };
+		A5AD4CFC225A3F3800F69B16 /* REPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REPage3.swift; sourceTree = "<group>"; };
+		A5AD4CFF225A3F6F00F69B16 /* RWPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPage1.swift; sourceTree = "<group>"; };
+		A5AD4D01225A3F8500F69B16 /* RWPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPage2.swift; sourceTree = "<group>"; };
+		A5AD4D03225A3F9700F69B16 /* RWPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPage3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +90,64 @@
 		A586D2572247B637005853CA /* Restaurant-demo */ = {
 			isa = PBXGroup;
 			children = (
+				A586D25C2247B637005853CA /* Main.storyboard */,
 				A586D2582247B637005853CA /* AppDelegate.swift */,
 				A532C3AC225533DE002EE47C /* Router.swift */,
-				A532C3AE225535FC002EE47C /* SignUpPresenter.swift */,
-				A586D25A2247B637005853CA /* SignUpVC.swift */,
-				A586D25C2247B637005853CA /* Main.storyboard */,
+				A5AD4CE6225A356900F69B16 /* Presenters */,
+				A5AD4CE7225A358800F69B16 /* ViewControllers */,
 				A586D25F2247B639005853CA /* Assets.xcassets */,
 				A586D2612247B639005853CA /* LaunchScreen.storyboard */,
 				A586D2642247B639005853CA /* Info.plist */,
-				A532C3B0225537EF002EE47C /* TestViewController.swift */,
-				A532C3B22255380F002EE47C /* TestPresenter.swift */,
 			);
 			path = "Restaurant-demo";
+			sourceTree = "<group>";
+		};
+		A5AD4CE6225A356900F69B16 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				A532C3AE225535FC002EE47C /* SignUpPresenter.swift */,
+				A532C3B22255380F002EE47C /* TestPresenter.swift */,
+				A5AD4CF0225A377900F69B16 /* RegEmployerPagerPresenter.swift */,
+				A5AD4CF2225A37A300F69B16 /* RegWorkerPagerPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		A5AD4CE7225A358800F69B16 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A586D25A2247B637005853CA /* SignUpVC.swift */,
+				A532C3B0225537EF002EE47C /* TestViewController.swift */,
+				A5AD4CE8225A35EB00F69B16 /* RegEmployerPager.swift */,
+				A5AD4CEA225A361800F69B16 /* RegWorkerPager.swift */,
+				A5AD4CEC225A36E700F69B16 /* RegEmployerPagerRouter.swift */,
+				A5AD4CEE225A36FE00F69B16 /* RegWorkerpagerRouter.swift */,
+				A5AD4CFE225A3F4300F69B16 /* RegEmployerSubs */,
+				A5AD4D05225A3F9F00F69B16 /* RegWorkerSubs */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A5AD4CFE225A3F4300F69B16 /* RegEmployerSubs */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD4CF4225A380100F69B16 /* RegEmployerSubController.swift */,
+				A5AD4CF8225A3F0C00F69B16 /* REPage1.swift */,
+				A5AD4CFA225A3F2700F69B16 /* REPage2.swift */,
+				A5AD4CFC225A3F3800F69B16 /* REPage3.swift */,
+			);
+			path = RegEmployerSubs;
+			sourceTree = "<group>";
+		};
+		A5AD4D05225A3F9F00F69B16 /* RegWorkerSubs */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD4CF6225A382000F69B16 /* RegWorkerSubController.swift */,
+				A5AD4CFF225A3F6F00F69B16 /* RWPage1.swift */,
+				A5AD4D01225A3F8500F69B16 /* RWPage2.swift */,
+				A5AD4D03225A3F9700F69B16 /* RWPage3.swift */,
+			);
+			path = RegWorkerSubs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,10 +222,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A532C3B1225537EF002EE47C /* TestViewController.swift in Sources */,
+				A5AD4CF7225A382000F69B16 /* RegWorkerSubController.swift in Sources */,
 				A586D25B2247B637005853CA /* SignUpVC.swift in Sources */,
 				A532C3B32255380F002EE47C /* TestPresenter.swift in Sources */,
 				A532C3AD225533DE002EE47C /* Router.swift in Sources */,
+				A5AD4CF5225A380100F69B16 /* RegEmployerSubController.swift in Sources */,
+				A5AD4CF1225A377900F69B16 /* RegEmployerPagerPresenter.swift in Sources */,
+				A5AD4CFD225A3F3800F69B16 /* REPage3.swift in Sources */,
 				A532C3AF225535FC002EE47C /* SignUpPresenter.swift in Sources */,
+				A5AD4CEF225A36FE00F69B16 /* RegWorkerpagerRouter.swift in Sources */,
+				A5AD4CF3225A37A300F69B16 /* RegWorkerPagerPresenter.swift in Sources */,
+				A5AD4D00225A3F6F00F69B16 /* RWPage1.swift in Sources */,
+				A5AD4CED225A36E700F69B16 /* RegEmployerPagerRouter.swift in Sources */,
+				A5AD4CE9225A35EB00F69B16 /* RegEmployerPager.swift in Sources */,
+				A5AD4CF9225A3F0C00F69B16 /* REPage1.swift in Sources */,
+				A5AD4CEB225A361800F69B16 /* RegWorkerPager.swift in Sources */,
+				A5AD4D02225A3F8500F69B16 /* RWPage2.swift in Sources */,
+				A5AD4D04225A3F9700F69B16 /* RWPage3.swift in Sources */,
+				A5AD4CFB225A3F2700F69B16 /* REPage2.swift in Sources */,
 				A586D2592247B637005853CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
